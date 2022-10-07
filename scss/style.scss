@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #F2F2F2;
+    .cantiner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .navbar-card{
+            width: 60%;
+            height: 155px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo-img{  
+                .oval{
+                    margin-right: 18px;
+                }
+                .oval:hover{
+                    color: #E7816B;
+                }
+            }
+        }
+        .navbar{
+            width: 35%;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    a{
+                        letter-spacing: 2px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        color: #333136; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 160px;
+        .section-card-1{
+            width: 60%;
+            height: 640px;
+            background-color: #E7816B;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            .card-1{
+                width: 50%;
+                padding-left: 95px;
+                h3{
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: #FFFFFF;
+                    margin-bottom: 35px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    margin-bottom: 40px;
+                }
+
+                button{
+                    width: 152px;
+                    height: 56px;
+                    background: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    color: #333136;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-family: 'Jost';
+                    line-height: 22px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .card-2{
+                padding-right: 95px;
+                top: 0;
+                bottom: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 100%;
+                overflow: hidden;
+                z-index: 7777777;
+            }
+
+            .back{
+                width: 640px;
+                height: 640px;
+                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                opacity: 0.31;
+                transform: matrix(0, -1, -1, 0, 0, 0);
+                border-radius: 100%;
+                position: absolute;
+                right: 20%;
+            }
+        }
+    }
+
+    .section-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 160px;
+        .section-card-2{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card-2{
+                width: 541px;
+                height: 640px;
+                background: #000000;
+                border-radius: 15px;
+                background-blend-mode: darken;
+                background: rgba(0, 0, 0, 0.5);
+                background-image: url(/img/Object.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .web-design{
+
+                    h4{
+                        font-family: 'Jost';
+                        font-weight: 500;
+                        font-size: 40px;
+                        letter-spacing: 2px;
+                        color: #FFFFFF;
+                        margin-bottom: 24px;
+                        cursor:context-menu;
+                    }
+
+                    p{
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 22px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        img{
+                            margin-left: 21px;
+                        }
+                    }
+                }
+            }
+    
+            .card-3{
+                width: 541px;
+                height: 640px;
+                background: #fff;
+                border-radius: 15px;
+                color: #fff;
+                .bitmap-card-1{
+                    width: 100%;
+                    height: 308px;
+                    border-radius: 15px;
+                    background-image: url(/img/Bitmap-1.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 24px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    .bitmap-1{
+                        h4{
+                            font-weight: 500;
+                            font-size: 40px;
+                            line-height: 48px;
+                            letter-spacing: 2px;
+                            margin-bottom: 24px;
+                            cursor: context-menu;
+                        }
+
+                        p{
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 22px;
+                            letter-spacing: 5px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            cursor: pointer;
+                            img{
+                                margin-left: 21px;
+                            }
+                        }
+                    }
+            }    
+
+              .bitmap-card-2{
+                width: 100%;
+                height: 308px;
+                border-radius: 15px;
+                background-image: url(/img/Bitmap-2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .bitmap-2{
+                    h4{
+                        font-weight: 500;
+                        font-size: 40px;
+                        line-height: 48px;
+                        text-align: center;
+                        letter-spacing: 2px;
+                        margin-bottom: 24px;
+                        cursor: context-menu;
+                    }
+
+                    p{
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 22px;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        img{
+                            margin-left: 21px;
+                            text-align: center;
+                        }
+                    }
+                }
+              }
+            }
+        }
+    }
+
+    .section-3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .background-img{
+            width: 60%;
+            height: 564px; 
+            background: #F1F3F5;
+            opacity: 0.5;
+            border-radius: 297px 0 297px 297px;
+            position: absolute;
+            right: 0;
+            top: 120px;
+        }
+        .section-card-3{
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+
+ 
+            .PASSIONATE-card-1{
+                width: 30%;
+                text-align: center;
+                margin-right: 20px;
+                z-index: 555;
+                img{
+                    margin-bottom: 48px;
+                    border-radius: 100%;
+                }
+                h4{
+                    margin-bottom: 32px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #333136;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+                }
+            }
+
+            .PASSIONATE-card-2{
+                width: 30%;
+                text-align: center;
+                margin-right: 20px;
+                z-index: 555;
+                img{
+                    margin-bottom: 48px;
+                    border-radius: 100%;
+                }
+                h4{
+                    margin-bottom: 32px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #333136;;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+                }
+            }
+
+            .PASSIONATE-card-3{
+                width: 30%;
+                text-align: center;
+                z-index: 555;
+                img{
+                    margin-bottom: 48px;
+                    border-radius: 100%;
+                }
+                h4{
+                    margin-bottom: 32px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #333136;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+                }
+            }
+        }
+    }
+
+    .section-4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 95px;
+        // overflow: hidden;
+        .section-card-4{
+            width: 60%;
+            height: 292px;
+            background-image: url(/img/Group\ 28.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 96px 0 95px;
+            .card-1{
+                width: 50%;
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: #FFFFFF;
+                    margin-bottom: 25px;
+                    cursor: context-menu;
+                    span{
+                        display: block;
+                    }
+                }
+    
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                    cursor: context-menu;
+                }
+            }
+    
+            .card-2{
+                button{
+                    width: 152px;
+                    height: 56px;
+                    background: #FFFFFF;
+                    border-radius: 8px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    color: #333136;
+                    border: none;
+                    font-family: 'Jost';
+                    line-height: 22px;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer{
+        width: 100%;
+        background: #1D1C1E;
+        padding: 65px 0;
+        .footer-box{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 31px;
+            .footer-card-1{
+                width: 60%;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid rgba(58, 58, 58, 0.897);
+                .footer-logo{
+                    width: 10%;
+                    display: flex;
+                    justify-content: space-between;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 16px;
+                    }
+                    h4{
+                        font-family: 'jost';
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 27px;
+                        letter-spacing: 5px;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .footer-navbar{
+                    width: 40%;
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        li{
+                            list-style: none;
+                            a{
+                                font-family: 'Jost';
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 14px;
+                                letter-spacing: 2px;
+                                color: #FFFFFF;
+                                text-decoration: none;
+                                cursor: pointer;
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-bottom{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .footer-bottom-card{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .footer-bottom-card-1{
+                    max-width: 17%;
+                    p{
+                        font-family: 'Jost';
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+                        cursor: context-menu;
+
+                        span{
+                            font-weight: 300;
+                            display: block;
+                        }
+                    }
+                }
+
+                .footer-bottom-card-2{
+                    width: 19%;
+                    p{
+                        font-family: 'Jost';
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+                        cursor: context-menu;
+
+                        span{
+                            display: block;
+                        }
+                    }
+                }
+
+                .footer-bottom-icon{
+                    width: 17%;
+                    height: 69px;
+                    display: flex;
+                    justify-content: center;
+                    .icon-bottom{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        i{
+                            font-size: 24px;
+                            cursor: pointer;
+                            color:  #E7816B;
+                        }
+                    }
+                 
+                }
+            }
+        }
+    }
+
+    @import url(/media.scss/1-media.scss);
+}

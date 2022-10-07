@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+body .cantiner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .header .navbar-card {
+  width: 60%;
+  height: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+body .header .navbar-card .logo-img .oval {
+  margin-right: 18px;
+}
+body .header .navbar-card .logo-img .oval:hover {
+  color: #E7816B;
+}
+body .header .navbar {
+  width: 35%;
+}
+body .header .navbar ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+body .header .navbar ul li {
+  list-style: none;
+}
+body .header .navbar ul li a {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  text-decoration: none;
+}
+body .section-1 {
+  width: 100%;
+  margin-bottom: 160px;
+}
+body .section-1 .section-card-1 {
+  width: 60%;
+  height: 300px;
+  background-image: url(/img/2-PAGE/Oval.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+body .section-1 .section-card-1 .card-1 {
+  width: 100%;
+}
+body .section-1 .section-card-1 .card-1 h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 0 24px 0;
+}
+body .section-1 .section-card-1 .card-1 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body .section-2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+body .section-2 .section-card-2 {
+  width: 60%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .section-2 .section-card-2 .card-1 {
+  width: 350px;
+  height: 478px;
+  text-align: center;
+}
+body .section-2 .section-card-2 .card-1 .card-sect-1 {
+  width: 100%;
+  height: 478px;
+  background-image: url(/img/4-PAGE/IMG/4-PAGE\ \(1\).jpg);
+  border-radius: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-1 .card-sect-1 .card-sect-2 {
+  width: 100%;
+  height: 37%;
+  background-color: #FDF3F0;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-1 h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  margin: 16px 0 0 0;
+}
+body .section-2 .section-card-2 .card-1 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
+body .section-2 .section-card-2 .card-2 {
+  width: 350px;
+  height: 478px;
+  text-align: center;
+}
+body .section-2 .section-card-2 .card-2 .card-sect-2 {
+  width: 100%;
+  height: 478px;
+  background-image: url(/img/4-PAGE/IMG/4-PAGE\ \(2\).jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-2 .card-sect-2 .card-sect-3 {
+  width: 100%;
+  height: 37%;
+  background-color: #FDF3F0;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-2 h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  margin: 16px 0 0 0;
+}
+body .section-2 .section-card-2 .card-2 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
+body .section-2 .section-card-2 .card-3 {
+  width: 350px;
+  height: 478px;
+  text-align: center;
+}
+body .section-2 .section-card-2 .card-3 .card-sect-3 {
+  width: 100%;
+  height: 478px;
+  background-image: url(/img/4-PAGE/IMG/4-PAGE\ \(3\).jpg);
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-3 .card-sect-3 .card-sect-4 {
+  width: 100%;
+  height: 37%;
+  background-color: #FDF3F0;
+  border-radius: 0 0 15px 15px;
+}
+body .section-2 .section-card-2 .card-3 h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  margin: 16px 0 0 0;
+}
+body .section-2 .section-card-2 .card-3 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
+body .section-4 {
+  width: 100%;
+  height: 300px;
+}
+body .section-4 .section-card-4 {
+  width: 60%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .section-4 .section-card-4 .card-1 {
+  width: 550px;
+  height: 300px;
+  background-image: url(/img/4-PAGE/PHONE.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+body .section-4 .section-card-4 .card-1 h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin: 0 0 24px 0;
+}
+body .section-4 .section-card-4 .card-1 p {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body .section-4 .section-card-4 .card-1 p span {
+  color: #E7816B;
+  text-align: center;
+}
+body .section-4 .section-card-4 .card-2 {
+  width: 550px;
+  height: 300px;
+  background-image: url(/img/4-PAGE/sect-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+body .section-4 .section-card-4 .card-2 h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin: 0 0 24px 0;
+}
+body .section-4 .section-card-4 .card-2 p {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body .section-4 .section-card-4 .card-2 p span {
+  color: #E7816B;
+}
+body .section-5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 95px;
+}
+body .section-5 .section-card-5 {
+  width: 60%;
+  height: 292px;
+  background-image: url(/img/4-PAGE/Group\ 28.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 96px 0 95px;
+}
+body .section-5 .section-card-5 .card-1 {
+  width: 50%;
+}
+body .section-5 .section-card-5 .card-1 h4 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+body .section-5 .section-card-5 .card-1 p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+body .section-5 .section-card-5 .card-2 button {
+  width: 152px;
+  height: 56px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #333136;
+  border: none;
+  font-family: "Jost";
+  line-height: 22px;
+  text-transform: uppercase;
+}
+body .footer {
+  width: 100%;
+  background: #1D1C1E;
+  padding: 65px 0;
+}
+body .footer .footer-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 31px;
+}
+body .footer .footer-box .footer-card-1 {
+  width: 60%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(58, 58, 58, 0.897);
+}
+body .footer .footer-box .footer-card-1 .footer-logo {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .footer .footer-box .footer-card-1 .footer-logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+body .footer .footer-box .footer-card-1 .footer-logo h4 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+body .footer .footer-box .footer-card-1 .footer-navbar {
+  width: 40%;
+}
+body .footer .footer-box .footer-card-1 .footer-navbar ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+body .footer .footer-box .footer-card-1 .footer-navbar ul li {
+  list-style: none;
+}
+body .footer .footer-box .footer-card-1 .footer-navbar ul li a {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+body .footer .footer-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .footer .footer-bottom .footer-bottom-card {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-1 {
+  width: 17%;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-1 p {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-1 p span {
+  display: block;
+  font-weight: 200;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-2 {
+  width: 19%;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-2 p {
+  font-family: "Jost";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-card-2 p span {
+  display: block;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-icon {
+  width: 17%;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-icon .icon-bottom {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+body .footer .footer-bottom .footer-bottom-card .footer-bottom-icon .icon-bottom i {
+  font-size: 24px;
+  cursor: pointer;
+  color: #E7816B;
+}/*# sourceMappingURL=4-PAGE.css.map */

@@ -1,0 +1,162 @@
+*{
+    box-sizing: content-box;
+}
+@media all and (max-width: 1024px){
+    body{
+        width: 100%;
+
+        // ________________HEADER_____________________
+
+        .header{
+            width: 100%;
+            display: flex;
+            .navbar-card{
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                .logo-img{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    .oval{
+                        width: 15%;
+                    }
+                    img{
+                        width: 40%;
+                    }
+                }
+                .navbar{
+                    width: 50%;
+                    ul{
+                        li{
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // ________________SECTION-1_____________________
+        .section-1{
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 120px;
+            .section-card-1{
+                width: 100%;
+                height: 843px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding-top: 60px;
+                .card-1{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0;
+                    h3{
+                        width: 100%;
+                        text-align: center;
+                        font-size: 48px;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: 16px;
+                    }
+
+                    button{
+                        margin: 0 auto;
+                    }
+                }
+
+                .card-2{
+                    display: flex;    
+                    padding: 0;  
+                    .phone-1{
+                        display: none;
+                    }
+
+                    .phone-2{
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+
+                .back{
+                    width: 640px;
+                    height: 640px;
+                    right: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    margin: 0 auto;
+                    box-sizing: content-box;
+                }
+            }
+        }
+        // ________________SECTION-2_____________________
+
+        .section-2{
+            width: 100%;
+            margin-bottom: 570px;
+            display: flex;
+            justify-content: center;
+            .section-card-2{
+                width: 80%;
+                .card-2{
+                    width: 100%;
+                    height: 200px;
+                    margin-bottom: 24px;
+                }
+
+                .card-3{
+                    width: 100%;
+                    height: 200px;
+                    margin-bottom: 24px;
+                    .bitmap-card-1{
+                        width: 100%;
+                        height: 200px;
+                    }
+
+                    .bitmap-card-2{
+                        width: 100%;
+                        height: 200px;
+                    }
+                }
+
+                .card-4{
+                    width: 100%;
+                    height: 200px;
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        .section-3{
+            width: 80%;
+            .section-card-3{
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                flex-wrap: wrap;
+                .PASSIONATE-card-1{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column-reverse;
+                }
+            }
+
+            .PASSIONATE-card-2{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+    }
+}

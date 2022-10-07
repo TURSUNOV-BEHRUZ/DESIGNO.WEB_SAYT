@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #F2F2F2;
+    .cantiner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .navbar-card{
+            width: 60%;
+            height: 155px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo-img{  
+                .oval{
+                    margin-right: 18px;
+                }
+                .oval:hover{
+                    color: #E7816B;
+                }
+            }
+        }
+        .navbar{
+            width: 35%;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    a{
+                        letter-spacing: 2px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        color: #333136; 
+                    }
+                }
+            }
+        }
+    }
+
+    .section-1{
+        width: 100%;
+        margin-bottom: 160px;
+        .section-card-1{
+            width: 60%;
+            height: 300px;
+            background-image: url(/img/2-PAGE/Oval.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 15px;
+            .card-1{
+                width: 100%;
+                h3{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 48px;
+                    color: #FFFFFF;
+                    margin-bottom: 24px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .section-2{
+        width: 100%;
+        height: 478px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-bottom: 32px;
+        .section-card-2{
+            width: 60%;
+            height: 478px;
+            display: flex;
+            justify-content: space-between;
+
+            .card-1{
+                width: 350px;
+                text-align: center;
+                .card-sect-1{
+                    width: 100%;
+                    height: 300px;
+                    background-image: url(/img/3-PAGE/card-1.jpg);
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .card-sect-2{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #E7816B;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+
+                    span{
+                        display: block;
+                    }
+                }   
+            }
+
+            .card-2{
+                width: 350px;
+                border-radius: 5%;
+                text-align: center;
+                border-radius: 0 15px 15px 0;
+                .card-sect-2{
+                    width: 100%;
+                    height: 300px;
+                    background-image: url(/img/4-PAGE/green.jpg);   
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .card-sect-3{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #E7816B;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+
+                    span{
+                        display: block;
+                    }
+                }
+            }
+
+            .card-3{
+                width: 350px;
+                text-align: center;
+                border-radius: 5%;
+
+                .card-sect-3{
+                    width: 100%;
+                    height: 300px;
+                    background-image: url(/img/4-PAGE/oreng.jpg);
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .card-sect-4{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #E7816B;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3{
+        width: 100%;
+        height: 478px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-bottom: 160px;
+        .section-card-3{
+            width: 60%;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            .card-1{
+                width: 350px;
+                text-align: center;
+                .card-sect-1{
+                    width: 100%;
+                    height: 300px;
+                    background-image: url(/img/4-PAGE/pink.jpg);
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .card-sect-2{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #E7816B;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+
+                    span{
+                        display: block;
+                    }
+                }
+            }
+
+            .card-2{
+                width: 350px;
+                text-align: center;
+                .card-sect-1{
+                    width: 100%;
+                    height: 300px;
+                    background-image: url(/img/4-PAGE/tomato.jpg);
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .card-sect-2{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    color: #E7816B;
+                    margin-bottom: 16px;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333136;
+
+                    span{
+                        display: block;
+                    }
+                }
+            }
+
+            .card-3{
+                width: 350px;
+                height: 478px;
+                text-align: center;
+                .card-sect-1{
+                }
+
+                .card-sect-2{
+                    width: 100%;
+                    height: 37%;
+                    background-color: #FDF3F0;
+                    border-radius: 0 0 15px 15px;
+                }
+
+                h3{
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+
+    .section-4{
+        width: 100%;
+        height: 300px; 
+        margin-bottom: 100px;
+        .section-card-4{
+            width: 60%;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            .card-1{
+                width: 550px;
+                height: 300px;
+                background-image: url(/img/3-PAGE/sect-4.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 15px;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h3{
+                    margin-bottom: 24px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 48px;
+                    letter-spacing: 2px;
+                    color: #FFFFFF;
+                }
+                
+                p{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 22px;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+
+                    span{
+                        color: #E7816B;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .card-2{
+                width: 550px;
+                height: 300px;
+                background-image: url(/img/4-PAGE/IMG.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 15px;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h3{
+                    margin-bottom: 24px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 48px;
+                    letter-spacing: 2px;
+                    color: #FFFFFF;
+                }
+
+                p{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 22px;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+
+                    span{
+                        color: #E7816B;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 95px;
+        .section-card-5{
+            width: 60%;
+            height: 292px;
+            background-image: url(/img/4-PAGE/Group\ 28.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 96px 0 95px;
+            .card-1{
+                width: 50%;
+                h4{
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: #FFFFFF;
+                    margin-bottom: 24px;
+                }
+    
+                p{
+                    font-family: 'Jost';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+            }
+    
+            .card-2{
+                button{
+                    width: 152px;
+                    height: 56px;
+                    font-family: 'Jost';
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 22px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #333136;
+                    background: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        // overflow: hidden;
+    }
+
+    .footer{
+        width: 100%;
+        background: #1D1C1E;
+        padding: 65px 0;
+        .footer-box{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 31px;
+            .footer-card-1{
+                width: 60%;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid rgba(58, 58, 58, 0.897);
+                .footer-logo{
+                    width: 10%;
+                    display: flex;
+                    justify-content: space-between;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 16px;
+                    }
+                    h4{
+                        font-family: 'Jost';
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 27px;
+                        letter-spacing: 5px;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .footer-navbar{
+                    width: 40%;
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        li{
+                            list-style: none;
+                            a{
+                                font-family: 'Jost';
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 14px;
+                                letter-spacing: 2px;
+                                color: #FFFFFF;
+                                text-decoration: none;
+                                cursor: pointer;
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-bottom{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .footer-bottom-card{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .footer-bottom-card-1{
+                    width: 17%;
+                    p{
+                        font-family: 'Jost';
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+
+                        span{
+                            display: block;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .footer-bottom-card-2{
+                    width: 19%;
+                    p{
+                        font-family: 'Jost';
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+
+                        span{
+                            display: block;
+                        }
+                    }
+                }
+
+                .footer-bottom-icon{
+                    width: 17%;
+                    height: 69px;
+                    display: flex;
+                    justify-content: center;
+                    .icon-bottom{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        i{
+                            font-size: 24px;
+                            cursor: pointer;
+                            color:  #E7816B;
+                        }
+                    }
+                 
+                }
+            }
+        }
+    }
+}
